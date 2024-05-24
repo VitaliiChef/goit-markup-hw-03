@@ -7,7 +7,9 @@ body {
 a {
   text-decoration: none;
 }
-
+img {
+  display: block;
+}
 ul,
 ol {
   list-style-type: none;
@@ -50,7 +52,6 @@ ol {
   margin-left: auto;
 }
 .header {
-  padding: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 .container {
@@ -65,6 +66,7 @@ ol {
 .header-navigation {
   display: flex;
   align-items: center;
+  padding: 24px;
 }
 
 .header-title {
@@ -112,11 +114,10 @@ ol {
 }
 .header-headline {
   background-color: #2e2f42;
-  padding: 188px;
-
-  display: block;
 }
-
+.headline-padding {
+  padding: 188px;
+}
 .main-btn:hover,
 .main-btn:focus {
   background-color: #404bbf;
@@ -147,6 +148,9 @@ ol {
   display: flex;
   gap: 24px;
 }
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -155,7 +159,7 @@ ol {
   color: #2e2f42;
   margin-bottom: 8px;
 }
-.feature-text {
+.features-text {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
@@ -170,14 +174,21 @@ ol {
   text-transform: capitalize;
   padding: 120px;
 }
+.team-office {
+  padding: 32px 0;
+  text-align: center;
+}
 .our-team-list {
   display: flex;
   gap: 24px;
-  text-align: center;
 }
 .our-team-subtitle {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
+.our-team-title {
+  margin-bottom: 72px;
+}
+
 .our-team-title,
 .our-portfolio-title {
   font-weight: 700;
@@ -194,7 +205,7 @@ ol {
 .our-portfolio-list {
   text-align: left;
   display: flex;
-  gap: 24px;
+  row-gap: 48px;
   flex-wrap: wrap;
 }
 
@@ -204,14 +215,16 @@ ol {
   display: block;
   padding: 120px;
 }
-
+.portfolio-settings {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+}
 .our-team-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
+
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-  margin-bottom: 120px;
 }
 
 .our-team-subtitle,
@@ -239,11 +252,12 @@ ol {
 
 .footer {
   background-color: #2e2f42;
-
-  padding: 120px;
+  padding: 100px 0;
 }
 .footer-logo {
   color: #4d5ae5;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-logo-part {
