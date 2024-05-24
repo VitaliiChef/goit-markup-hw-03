@@ -33,7 +33,6 @@ ol {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px 0;
 }
 .header-logo,
 .footer-logo {
@@ -81,6 +80,8 @@ ol {
 }
 .header-link {
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 .contacts-title {
   display: flex;
