@@ -53,7 +53,7 @@ ol {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
-  padding: 24px;
+  padding: 24px 0;
 }
 .container {
   max-width: 1158px;
@@ -67,7 +67,6 @@ ol {
 .header-navigation {
   display: flex;
   align-items: center;
-  padding: 24px;
 }
 
 .header-title {
@@ -172,7 +171,6 @@ ol {
 .our-team {
   background-color: #f4f4fd;
   text-transform: capitalize;
-  padding: 120px;
 }
 .team-office {
   padding: 32px 0;
@@ -181,6 +179,7 @@ ol {
 .our-team-list {
   display: flex;
   gap: 24px;
+  padding: 120px;
 }
 .our-team-subtitle {
   margin-bottom: 8px;
@@ -205,19 +204,23 @@ ol {
 .our-portfolio-list {
   text-align: left;
   display: flex;
-  row-gap: 48px;
+  border-top: none;
   flex-wrap: wrap;
+  width: calc((100% - 72px) / 4);
+  padding-top: 120px;
+  padding-bottom: 120px;
+  column-gap: 24px;
 }
 
 .our-portfolio {
   background-color: #ffffff;
   text-transform: capitalize;
   display: block;
-  padding: 120px;
 }
 .portfolio-settings {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  margin-bottom: 8px;
 }
 .our-team-item {
   background-color: #ffffff;
