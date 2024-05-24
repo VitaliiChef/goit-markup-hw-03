@@ -53,6 +53,7 @@ ol {
 }
 .header {
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px;
 }
 .container {
   max-width: 1158px;
@@ -114,10 +115,9 @@ ol {
 }
 .header-headline {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
-.headline-padding {
-  padding: 188px;
-}
+
 .main-btn:hover,
 .main-btn:focus {
   background-color: #404bbf;
@@ -142,11 +142,11 @@ ol {
 /* --------------------- */
 /* -------FEATURES-------  */
 .features {
-  padding: 120px;
 }
 .features-list {
   display: flex;
   gap: 24px;
+  padding: 120px;
 }
 .features-item {
   width: calc((100% - 72px) / 4);
