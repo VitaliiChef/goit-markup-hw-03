@@ -28,6 +28,15 @@ ol {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 /* --------------------- */
 /* -------HEADER-------  */
 
@@ -82,6 +91,7 @@ ol {
   color: #2e2f42;
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 .contacts-title {
   display: flex;
@@ -217,6 +227,7 @@ ol {
   text-transform: capitalize;
   display: block;
   padding: 120px 0;
+  border-bottom: 1px solid #e7e9fc;
 }
 .portfolio-settings {
   padding: 32px 16px;
@@ -249,7 +260,6 @@ ol {
   color: #434455;
 }
 .our-portfolio-item {
-  border-bottom: 1px solid #e7e9fc;
   width: calc((100% - 48px) / 3);
 }
 
